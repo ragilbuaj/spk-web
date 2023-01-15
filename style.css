@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
 :root {
-  --primary-font: 'Poppins', sans-serif;
-  --secondary-font: 'Roboto', sans-serif;
+  --primary-font: "Poppins", sans-serif;
+  --secondary-font: "Roboto", sans-serif;
 }
 
 * {
@@ -115,4 +115,75 @@ p,
 .button-service button:hover {
   color: black;
   background-color: blue;
+}
+
+.about {
+  color: white;
+  max-width: 700px;
+  position: absolute;
+  top: 100px;
+  right: 100px;
+  align-items: center;
+  font-family: var(--primary-font);
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-content h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.contact {
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  color: white;
+  background-color: black;
+  width: 100%;
+  font-family: var(--primary-font);
+}
+
+.contact h2 {
+  text-transform: capitalize;
+  font-size: 30px;
+}
+
+.contact-link {
+  max-width: 600px;
+  margin: 10px 0px 10px 20px;
+}
+
+.contact-link img {
+  margin: 5px;
+  width: 30px;
+}
+
+.contact-link p {
+  margin-top: 40px;
+}
+
+.contact-detail {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px 20px 300px;
+}
+
+.contact-detail img {
+  width: 25px;
+}
+
+.contact-detail h3 {
+  font-size: 18px;
+}
+
+.contact-detail p {
+  font-size: 12px;
+}
+
+.phone {
+  margin-top: 20px;
 }
